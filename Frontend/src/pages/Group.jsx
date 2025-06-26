@@ -7,6 +7,7 @@ const GroupsDashboard = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [showCreateModal, setShowCreateModal] = useState(false);
 
+  
   const myGroups = [
     {
       id: 1,
