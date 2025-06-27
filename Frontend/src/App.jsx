@@ -10,8 +10,8 @@ import { Routes, Route } from "react-router-dom";
 // import Event from "./pages/Event";
 // import Group from "./pages/Group";
 // import Login from "./pages/Login";
-// import RegisterPage from "./pages/RegisterPage";
-import Saveitem from "./pages/Saveitem";
+// import Saveitem from "./pages/Saveitem";
+import Activity from "./pages/Activity";
 
 
 const App = () => {
@@ -26,11 +26,8 @@ const App = () => {
         {/* <Route path="/" element={<Message/>} /> */}
         {/* <Route path="/" element={<Event/>} /> */}
         {/* <Route path="/" element={<Group/>} /> */}
-        <Route path="/" element={<Saveitem/>} />
-
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/login" element={<Login />} /> */}
-        {/* <Route path="/register" element={<RegisterPage />} /> */}
+        {/* <Route path="/" element={<Saveitem/>} /> */}
+        <Route path="/" element={<Activity/>} />
       </Routes>
     </>
   );
