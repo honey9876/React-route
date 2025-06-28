@@ -11,7 +11,11 @@ import { Routes, Route } from "react-router-dom";
 // import Group from "./pages/Group";
 // import Login from "./pages/Login";
 // import Saveitem from "./pages/Saveitem";
-import Activity from "./pages/Activity";
+// import Activity from "./pages/Activity";
+// import Register from "./pages/Register";
+// import Analitic from "./pages/Analitic";
+// import Impress from "./pages/Impress";
+import Poster from "./pages/Poster";
 
 
 const App = () => {
@@ -27,7 +31,11 @@ const App = () => {
         {/* <Route path="/" element={<Event/>} /> */}
         {/* <Route path="/" element={<Group/>} /> */}
         {/* <Route path="/" element={<Saveitem/>} /> */}
-        <Route path="/" element={<Activity/>} />
+        {/* <Route path="/" element={<Activity/>} /> */}
+        {/* <Route path="/" element={<Register/>} /> */}
+        {/* <Route path="/" element={<Analitic/>} /> */}
+        {/* <Route path="/" element={<Impress/>} /> */}
+        <Route path="/" element={<Poster/>} />
       </Routes>
     </>
   );
